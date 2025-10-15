@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Submission_of_Applications_Ерилеев
+namespace Submission_of_Applications_Ерилеев.pages
 {
     /// <summary>
     /// Логика взаимодействия для Statement.xaml
