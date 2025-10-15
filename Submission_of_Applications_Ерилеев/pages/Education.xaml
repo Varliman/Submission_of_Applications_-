@@ -17,6 +17,8 @@
             <Label Content="Электронная приемная комиссия"
                    HorizontalAlignment="Left" Margin="55,1,0,0"
                    VerticalAlignment="Top" FontWeight="Bold" FontSize="19"/>
+            <Label Content="МЦК-ЧЭМК Минобразования Чувашии" 
+       HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
         </Grid>
 
         <!-- Прокрутка содержимого -->

@@ -14,7 +14,8 @@
         Source="/i.webp"/>
             <Label Content="Электронная приемная комиссия" HorizontalAlignment="Left" Margin="55,1,0,0"
         VerticalAlignment="Top" FontWeight="Bold" FontSize="19"/>
-            <Label Content="" HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
+            <Label Content="МЦК-ЧЭМК Минобразования Чувашии" 
+       HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
         </Grid>
 
         <Grid Margin="0,60,0,0">
