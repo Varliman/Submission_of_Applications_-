@@ -66,7 +66,7 @@
                 <Button Content="Выбрать..." HorizontalAlignment="Left" Margin="320,360,0,0" VerticalAlignment="Top"
                 Width="100" Height="25"/>
 
-                <Button Content="Продолжить" HorizontalAlignment="Left" Margin="260,400,0,0" VerticalAlignment="Top"
+                <Button Content="Продолжить" Click="Button_Click" HorizontalAlignment="Left" Margin="260,400,0,0" VerticalAlignment="Top"
                 Width="150" Height="25"/>
 
             </Grid>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Submission_of_Applications_Ерилеев.pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,31 @@ namespace Submission_of_Applications_Ерилеев
     /// </summary>
     public partial class MainWindow : Window
     {
+        private List<Page> pages = new List<Page>();
+        private int currentPageIndex = 0;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            pages.Add(new Statement());
+            pages.Add(new Education());
+            pages.Add(new Speciality());
+            pages.Add(new Passport());
+            pages.Add(new Contacts());
+            pages.Add(new Parents());
+
+            frame.Navigate(pages[currentPageIndex]);
         }
+
+        public void NextPage()
+        {
+            if (currentPageIndex < pages.Count - 1)
+            {
+                currentPageIndex++;
+                frame.Navigate(pages[currentPageIndex]);
+            }
+        }
+
     }
 }

@@ -36,7 +36,7 @@
             <TextBox Height="24" Margin="10,10,10,0" TextWrapping="Wrap" Text=""
                     VerticalAlignment="Top"/>
 
-            <Button Content="Продолжить" Width="150" Height="25" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+            <Button Content="Продолжить" Click="Button_Click" Width="150" Height="25" HorizontalAlignment="Center" Margin="0,20,0,0"/>
         </StackPanel>
     </Grid>
 </Page>

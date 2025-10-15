@@ -76,7 +76,7 @@
             <TextBox HorizontalAlignment="Left" Margin="10,420,0,0" VerticalAlignment="Top" Width="760" Height="25"/>
             <Button Content="Выбрать..." HorizontalAlignment="Left" Margin="780,420,0,0" VerticalAlignment="Top" Width="100"/>
 
-            <Button Content="Продолжить" HorizontalAlignment="Left" Margin="370,460,0,0" VerticalAlignment="Top"
+            <Button Content="Продолжить" Click="Button_Click" HorizontalAlignment="Left" Margin="370,460,0,0" VerticalAlignment="Top"
                     Width="150" Height="25"/>
         </Grid>
     </Grid>

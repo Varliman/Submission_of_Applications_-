@@ -51,7 +51,7 @@
         Margin="12,293,0,0" VerticalAlignment="Top"/>
             <TextBox Height="24" Margin="12,318,10,0" TextWrapping="Wrap" Text=""
             VerticalAlignment="Top"/>
-            <Button Content="Продолжить" HorizontalAlignment="Left" Margin="147,359,0,0"
+            <Button Content="Продолжить" Click="NextPage" HorizontalAlignment="Left" Margin="147,359,0,0"
         VerticalAlignment="Top" Width="150" Height="25"/>
         </Grid>
     </Grid>

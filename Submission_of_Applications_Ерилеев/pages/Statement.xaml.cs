@@ -24,5 +24,10 @@ namespace Submission_of_Applications_Ерилеев.pages
         {
             InitializeComponent();
         }
+
+        private void NextPage(object sender, RoutedEventArgs e)
+        {
+            ((MainWindow)Application.Current.MainWindow).NextPage();
+        }
     }
 }

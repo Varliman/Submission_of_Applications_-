@@ -98,6 +98,7 @@
                           Margin="0,10,0,20" />
 
                 <Button Content="Продолжить" 
+                        Click="Button_Click"
                         HorizontalAlignment="Right" 
                         Width="130" Height="30"
                         Background="#E0E0E0" 

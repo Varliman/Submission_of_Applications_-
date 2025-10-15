@@ -72,7 +72,7 @@
                 </StackPanel>
 
                 <!-- Кнопка -->
-                <Button Grid.Row="8" Content="Продолжить" Width="150" Height="25"
+                <Button Grid.Row="8" Click="Button_Click"  Content="Продолжить" Width="150" Height="25"
                         HorizontalAlignment="Right" Margin="0,15,0,0"/>
             </Grid>
         </ScrollViewer>
