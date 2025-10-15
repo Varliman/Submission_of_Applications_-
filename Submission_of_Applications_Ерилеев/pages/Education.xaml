@@ -6,8 +6,7 @@
       xmlns:local="clr-namespace:Submission_of_Applications_Ерилеев.pages"
       mc:Ignorable="d"
       Title="Education"
-      Height="500"
-      Width="450">
+      d:DesignHeight="500" d:DesignWidth="450">
 
     <!-- Общий фон -->
     <Grid Background="#F8F9FA">
