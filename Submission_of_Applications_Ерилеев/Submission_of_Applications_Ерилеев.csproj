@@ -75,6 +75,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="pages\Parents.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="pages\Passport.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -94,6 +98,9 @@
     </Compile>
     <Compile Include="pages\Education.xaml.cs">
       <DependentUpon>Education.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Parents.xaml.cs">
+      <DependentUpon>Parents.xaml</DependentUpon>
     </Compile>
     <Compile Include="pages\Passport.xaml.cs">
       <DependentUpon>Passport.xaml</DependentUpon>
