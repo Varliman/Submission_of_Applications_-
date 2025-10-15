@@ -21,50 +21,56 @@
        HorizontalAlignment="Left" Margin="55,24,0,0" VerticalAlignment="Top"/>
         </Grid>
 
-        <!-- Прокрутка содержимого -->
         <ScrollViewer Margin="0,60,0,0" VerticalScrollBarVisibility="Auto">
-            <!-- Canvas = элементы остаются на месте -->
-            <Canvas Background="#F8F9FA" Height="440" Width="450">
+            <Grid Background="#F8F9FA">
 
-                <Label Content="Сведения об образовании"
-                       Canvas.Left="10" Canvas.Top="10"
-                       FontWeight="Bold"/>
+                <Label Content="Сведения об образовании" 
+               HorizontalAlignment="Left" Margin="10,10,0,0" 
+               VerticalAlignment="Top" FontWeight="Bold"/>
 
-                <Label Content="База:" Canvas.Left="10" Canvas.Top="40" FontWeight="Bold"/>
-                <Label Content="Выберите один из вариантов:" Canvas.Left="10" Canvas.Top="65"
-                       Foreground="Red" FontSize="11"/>
+                <Label Content="База:" HorizontalAlignment="Left" 
+               Margin="10,40,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
 
-                <RadioButton Content="9 классов" Canvas.Left="25" Canvas.Top="85"/>
-                <RadioButton Content="11 классов" Canvas.Left="25" Canvas.Top="105"/>
-                <RadioButton Content="СПО" Canvas.Left="25" Canvas.Top="125"/>
-                <RadioButton Content="ВПО" Canvas.Left="25" Canvas.Top="145"/>
+                <Label Content="Выберите один из вариантов:" HorizontalAlignment="Left" 
+               Margin="10,65,0,0" VerticalAlignment="Top" Foreground="Red" FontSize="11"/>
 
-                <Label Content="Выберите один из вариантов:" Canvas.Left="10" Canvas.Top="175"
-                       Foreground="Red" FontSize="11"/>
-                <RadioButton Content="Аттестат" Canvas.Left="25" Canvas.Top="195"/>
-                <RadioButton Content="Диплом" Canvas.Left="25" Canvas.Top="215"/>
+                <RadioButton Content="9 классов" HorizontalAlignment="Left" Margin="25,85,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="11 классов" HorizontalAlignment="Left" Margin="25,105,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="СПО" HorizontalAlignment="Left" Margin="25,125,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="ВПО" HorizontalAlignment="Left" Margin="25,145,0,0" VerticalAlignment="Top"/>
 
-                <Label Content="Серия и номер документа об образовании:"
-                       Canvas.Left="10" Canvas.Top="249" FontSize="10"/>
-                <TextBox Canvas.Left="12" Canvas.Top="275" Width="200" Height="24"/>
+                <Label Content="Выберите один из вариантов:" HorizontalAlignment="Left" 
+               Margin="10,175,0,0" VerticalAlignment="Top" Foreground="Red" FontSize="11"/>
 
-                <Label Content="Средний балл (до сотых):"
-                       Canvas.Left="245" Canvas.Top="250" FontSize="10"/>
-                <TextBox Canvas.Left="245" Canvas.Top="275" Width="150" Height="24"/>
+                <RadioButton Content="Аттестат" HorizontalAlignment="Left" Margin="25,195,0,0" VerticalAlignment="Top"/>
+                <RadioButton Content="Диплом" HorizontalAlignment="Left" Margin="25,215,0,0" VerticalAlignment="Top"/>
+
+                <Label Content="Серия и номер документа об образовании:" 
+               HorizontalAlignment="Left" Margin="10,249,0,0" 
+               VerticalAlignment="Top" FontSize="10"/>
+                <TextBox HorizontalAlignment="Left" Margin="12,275,0,0" VerticalAlignment="Top" Width="200" Height="24"/>
+
+                <Label Content="Средний балл (до сотых):" 
+               HorizontalAlignment="Left" Margin="245,250,0,0" 
+               VerticalAlignment="Top" FontSize="10"/>
+                <TextBox HorizontalAlignment="Left" Margin="245,275,0,0" VerticalAlignment="Top" Width="150" Height="24"/>
 
                 <Label Content="Прикрепите скан страниц документа об образовании"
-                       Canvas.Left="10" Canvas.Top="310" FontSize="11"/>
+               HorizontalAlignment="Left" Margin="10,310,0,0" VerticalAlignment="Top" FontSize="11"/>
 
                 <Label Content="Выберите документ"
-                       Canvas.Left="10" Canvas.Top="335" Foreground="Red" FontSize="8"/>
+               HorizontalAlignment="Left" Margin="10,335,0,0" VerticalAlignment="Top" 
+               Foreground="Red" FontSize="8"/>
 
-                <TextBox Canvas.Left="12" Canvas.Top="360" Width="300" Height="24" TextWrapping="Wrap"/>
-                <Button Content="Выбрать..." Canvas.Left="320" Canvas.Top="360"
-                        Width="100" Height="25"/>
+                <TextBox HorizontalAlignment="Left" Margin="12,360,0,0" VerticalAlignment="Top" Width="300" Height="24" TextWrapping="Wrap"/>
+                <Button Content="Выбрать..." HorizontalAlignment="Left" Margin="320,360,0,0" VerticalAlignment="Top"
+                Width="100" Height="25"/>
 
-                <Button Content="Продолжить" Canvas.Left="260" Canvas.Top="400"
-                        Width="150" Height="25"/>
-            </Canvas>
+                <Button Content="Продолжить" HorizontalAlignment="Left" Margin="260,400,0,0" VerticalAlignment="Top"
+                Width="150" Height="25"/>
+
+            </Grid>
         </ScrollViewer>
+
     </Grid>
 </Page>
